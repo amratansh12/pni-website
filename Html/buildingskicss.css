@@ -1,0 +1,128 @@
+body{
+    height: 1500px;
+    background-image: url(images/pexels-eberhard-grossgasteiger-1367192.jpg);
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-attachment: fixed;
+}
+.heading span{
+    border: 2px solid red;
+    display: block;
+    width: 50%;
+    margin-top: 25px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    font-family: 'Akshar';
+    font-weight: 600;
+    font-style: italic;
+    box-shadow: 2px 2px 5px black;
+    border-color: silver;
+    border-top-right-radius: 38px;
+    border-bottom-left-radius: 38px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: silver;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.container1{
+    background-color: white;
+    border: 2px solid white;
+    display: block;
+    height: 310px;
+    margin-top: 30px;
+    margin-right: 300px;
+    color: black;
+    border-top-right-radius: 269px;
+    border-bottom-right-radius: 269px;
+    box-shadow: 5px 5px 13px #598686;
+}
+.container1 img{
+    box-shadow: 2px 2px 5px #598686;
+    height: 289px;
+    margin-left: 665px;
+    margin-top: -292px;
+    border-radius: 219px;
+    width: 285px;
+    display: block;
+}
+#info1{
+    /* border: 2px solid green; */
+    display: block;
+    width: 600px;
+    margin: 21px;
+    height: 260px;
+}
+#info1 span{
+    letter-spacing: 3px;
+    font-size: 33px;
+    /* border: 2px solid red; */
+    font-family: 'Akshar', sans-serif;
+}
+#info1 p{
+    color: #a9a9a9;
+    font-size: 18px;
+    font-family: 'Akshar', sans-serif;
+}
+#mgcl{
+    float: right;
+    background-color: white;
+    border: 2px solid white;
+    display: block;
+    height: 310px;
+    margin-top: 30px;
+    margin-left: 300px;
+    color: black;
+    border-top-left-radius: 269px;
+    border-bottom-left-radius: 269px;
+    box-shadow: 5px 5px 13px #598686;
+}
+#mgclinfo{
+    float: right;
+}
+#mgclimg{
+    float: left;
+}
+.container2{
+    background-color: white;
+    border: 2px solid white;
+    display: block;
+    height: 310px;
+    margin-top: 70px;
+    margin-left: 300px;
+    color: black;
+    border-top-left-radius: 269px;
+    border-bottom-left-radius: 269px;
+    box-shadow: 5px 5px 13px #598686;
+}
+.container2 img{
+    box-shadow: 2px 2px 5px #598686;
+    height: 289px;
+    margin-left: 9px;
+    margin-top: -292px;
+    border-radius: 219px;
+    width: 285px;
+    display: block;
+}
+#info2{
+    /* border: 2px solid green; */
+    text-align: right;
+    display: block;
+    width: 600px;
+    margin: 21px;
+    height: 260px;
+    margin-left: 339px;
+}
+#info2 span{
+    letter-spacing: 3px;
+    font-size: 33px;
+    /* border: 2px solid red; */
+    font-family: 'Akshar', sans-serif;
+}
+#info2 p{
+    color: #a9a9a9;
+    font-size: 18px;
+    font-family: 'Akshar', sans-serif;
+}

@@ -1,0 +1,97 @@
+.loginform{
+    box-shadow: 5px 5px 9px 3px black;
+    background-color: white;
+    border: 2px solid white;
+    height: 388px;
+    margin-left: 97px;
+    width: 560px;
+    margin-top: 76px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.input{
+    /* border: 2px solid red; */
+    display: block;
+    width: 268px;
+    margin: auto;
+    padding: 20px;
+}
+.groupimage img{
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 499px;
+    height: 392px;
+    float: right;
+    margin-top: -392px;
+    margin-right: 103px;
+    box-shadow: 5px 5px 9px 3px black;
+}
+.loginform h2{
+    /* border: 2px solid red; */
+    line-height: 70px;
+    display: block;
+    width: 79px;
+    margin: auto;
+    font-family: 'Proza Libre', sans-serif;
+    margin-top: 31px;
+}
+#btn{
+    /* border: 2px solid red;  */
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 76px;
+    border-radius: 9px;
+    border: 2px solid #eeeeee;
+    color: #619494;
+}
+#btn:hover{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 76px;
+    border-radius: 9px;
+    border: 2px solid #504e4e;
+    color: #504e4e;
+}
+#signup{
+    /* border: 2px solid red; */
+    display: block;
+    width: 31%;
+    margin: auto;
+    font-family: 'Proza Libre', sans-serif;
+    margin-top: 22px;
+    font-size: 15px
+}
+#email{
+    border: 2px solid #a7c1c3;
+    padding: 5px;
+    margin-left: 41px;
+    border-radius: 5px;
+}
+#email:hover{
+    cursor: pointer;
+    border:2.5px solid rgb(70, 74, 77);
+}
+#password{
+    border: 2px solid #a7c1c3;
+    margin-left: 9px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#password:hover{
+    cursor: pointer;
+    border:2.5px solid rgb(70, 74, 77);
+}
+.input span{
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bold;
+}
+#signupbtn{
+    text-decoration: none;
+    color: #89a9bf;
+}
+#signupbtn:hover{
+    color: rgb(85, 99, 99);
+}

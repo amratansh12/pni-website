@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signupkicss.css">
+    <link rel="stylesheet" href="headerkicss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Bebas+Neue&family=Ubuntu+Mono:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Yaha se header chalu hota hai -->
+    <header class="header">
+        <div id="left">
+            <img src="images/pi logo 2.jpg" alt="">
+            <h3>IIT Roorkee</h3>
+        </div>
+        <div id="mid" class="neonText">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Blogs.html">Blogs</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+        </div>
+        <div class="right">
+            <a href="login.html">Sign Up/Login</a>
+        </div>
+    </header>
+    <!-- Idhar header khatam ho gaya doston! -->
+
+    <div class="signupform">
+        <h3>SIGNUP</h3>
+        <form action="#">
+            <div class="input">
+                <span>First Name:</span><input type="text" name="email" id="fname" placeholder="Enter Your First Name" required><br>
+            </div>
+            <div class="input">
+                <span>Last Name:</span><input type="text" name="email" id="lname" placeholder="Enter Your Second Name" required><br>
+            </div>
+            <div class="input">
+                <span>Email:</span><input type="email" name="email" id="email" placeholder="Enter Your Email" required><br>
+            </div>
+            <div class="input">
+                <span>Password:</span><input type="password" name="email" id="password" placeholder="Enter Your Password" required>
+            </div>
+            <div class="input">
+                <span>Confirm Password:</span><input type="password" name="email" id="cpassword" placeholder="Enter Your Password again" required>
+            </div>
+            <div class="input">
+                <span>Date of Birth:</span><input type="date" name="email" id="dob" placeholder="Select" required>
+            </div>
+            <div class="input">
+                <span>Date of Birth:</span><select name="" id="year" placeholder="Select">
+                    <option value="Fourth Year" default>Select</option>
+                    <option value="First Year">First Year</option>
+                    <option value="Second Year">Second Year</option>
+                    <option value="Third Year">Third Year</option>
+                    <option value="Fourth Year">Fourth Year</option>
+                </select>
+            </div>
+            <div class="confirmed">
+                <input type="checkbox" name="confirmed" id="confirmed"><span>I have re-checked my details and ready to signup.</span>
+            </div>
+            <button id="btn">Signup</button>
+        </form>
+    </div>
+</body>
+
+</html>

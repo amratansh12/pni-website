@@ -1,0 +1,142 @@
+body{
+    background-size: 2121px;
+    background-image: url(https://images.pexels.com/photos/3454270/pexels-photo-3454270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    margin: 0px;
+    padding: 0px;
+    height: 1100px;
+    background-repeat: no-repeat;
+}
+
+.container h2{
+    text-align: center;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 4px rgb(163, 105, 163),
+        0 0 82px rgb(163, 105, 163),
+        0 0 92px rgb(163, 105, 163),
+        0 0 5px rgb(163, 105, 163),
+        0 0 151px rgb(163, 105, 163);
+    border: 2px solid red;
+    display: block;
+    width: 304px;
+    margin: auto;
+    margin-top: 38px;
+    padding: 21px;
+    border-radius: 44px;
+    /* background-color: #b7b7b7; */
+    /* background-image: url(); */
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    /* background-color: rgb(178, 203, 199); */
+    background-image: url(https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.members{
+    box-shadow: 0 0 7px #fff, 
+        0 0 10px #fff, 
+        0 0 21px #fff, 
+        0 0 4px rgb(163 116 105), 
+        0 0 41px rgb(163 116 105), 
+        0 0 8px rgb(163 116 105), 
+        0 0 2px rgb(163 116 105), 
+        0 0 2px rgb(163 116 105);
+    height: 205px;
+    border-radius: 222px;
+    display: block;
+    /* border: 2px solid #231f20; */
+    width: 25%;
+    float: left;
+    margin: 108px;
+    width: 205px;
+    /* margin-right: 217px;*/
+}
+.members img{
+    border-radius: 200px;
+    width: 205px;
+    height: 205px;
+}
+.members:hover{
+    box-shadow: 0 0 7px #fff, 
+    0 0 10px #fff,
+    0 0 21px #fff, 
+    0 0 4px rgb(62, 61, 61), 
+    0 0 41px rgb(62, 61, 61), 
+    0 0 8px rgb(62, 61, 61), 
+    0 0 2px rgb(62, 61, 61), 
+    0 0 2px rgb(62, 61, 61);
+}
+.meminfo{
+    font-weight: bold;
+    font-family: 'Anek Gujarati', sans-serif;
+    box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 4px rgb(163 116 105), 0 0 41px rgb(163 116 105), 0 0 8px rgb(163 116 105), 0 0 2px rgb(163 116 105), 0 0 2px rgb(163 116 105);
+    height: 307px;
+    /* border-radius: 222px; */
+    display: block;
+    border: 2px solid #ffffff;
+    width: 25%;
+    float: left;
+    margin: 60px;
+    width: 263px;
+    margin-top: -42px;
+    background-color: white;
+    /* border-color: white; */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 17px;
+}
+.names{
+    text-align: center;
+    /* font-weight: bold; */
+    font-family: 'Anek Gujarati', sans-serif;
+    box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 4px rgb(163 116 105), 0 0 41px rgb(163 116 105), 0 0 8px rgb(163 116 105), 0 0 2px rgb(163 116 105), 0 0 2px rgb(163 116 105);
+    height: 1px;
+    /* border-radius: 222px; */
+    display: block;
+    border: 2px solid #ffffff;
+    width: 25%;
+    float: left;
+    margin: 60px;
+    width: 263px;
+    margin-top: -74px;
+    background-color: white;
+    /* border-color: white; */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 17px;
+}
+.names h3{
+    font-size: 20px;
+    margin-top: -13px   
+}
+.fa-brands{
+    border: 2px solid red;
+}
+#amratanshhr{
+    margin-top: 57.5px;
+}
+#ayushhr{
+    margin-top: 131.5px;
+}
+#usmanhr{
+    margin-top: 57.5px;
+}
+
+.meminfo a{
+    text-decoration: none;
+    color: #87c1d1;
+}
+.facebook{
+    float: right;
+    margin-right: 201px;
+}
+.github{
+    float: right;
+    margin-right: 219px;
+}

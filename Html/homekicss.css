@@ -1,0 +1,150 @@
+#introofbranch{
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px;
+    color: grey;
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 623px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#introofbranch h3{
+    color: black;
+    font-size: 23px;
+    font-style: italic;
+}
+body{
+    background-image: url(images/pexels-eberhard-grossgasteiger-1367192.jpg);
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    background-attachment: fixed;
+}
+#rightofintro img{
+    /* box-shadow:  ;h-offset v-offset blur spread color */
+    display: block;
+    box-shadow: 5px 5px 9px 3px black;
+    border-radius: 21px;
+    height: 378px;
+    margin-right: 40px;
+    width: 502px;
+    float: right;
+    margin-top: -342px;
+}
+
+
+#Faculty{
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px;
+    color: grey;
+    border: 2px solid white;
+    margin-top: 227px;
+    margin-right: 0px;
+    margin-left: 623px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#Faculty h3{
+    color: black;
+    font-size: 23px;
+    font-style: italic;
+}
+#leftoffaculty img{
+    /* box-shadow:  ;h-offset v-offset blur spread color */
+    display: block;
+    box-shadow: 5px 5px 9px 3px black;
+    border-radius: 21px;
+    height: 378px;
+    margin-left: 40px;
+    width: 502px;
+    float: left;
+    margin-top: -340px;
+}
+
+
+.info{
+    margin: 0px;
+    margin-top: 94px;
+    /* background-color: white; */
+    background-image: url(images/pexels-photo-395198.webp);
+    padding: 17px;
+    padding-top: 64px;
+    font-family: 'Lora', serif;
+    height: 1000px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#tour{
+    margin: auto;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    display: block;
+    width: 64%;
+}
+.boxesininfo{
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px black;
+    display: block;
+    width: 33%;
+    /* border: 2px solid red; */
+    float: left;
+    padding: 25px;
+    margin: 79px;
+    margin-top: 59px;
+    padding-top: 7px;
+    border-radius: 19px;
+}
+.boxesininfo:hover{
+    background-color: #4664671f;
+    box-shadow: 2px 2px 5px rgb(41, 108, 120);
+    display: block;
+    width: 33%;
+    /* border: 2px solid red; */
+    float: left;
+    padding: 25px;
+    margin: 79px;
+    margin-top: 59px;
+    padding-top: 7px;
+    border-radius: 19px;
+}
+#bhawans{
+    margin-top: -10px;
+}
+#extracurr{
+    margin-top: -10px;
+}
+#facilities{
+    margin-top: -10px;
+}
+#entertainment{
+    margin-top: -10px;
+}
+
+.boxesininfo h3{
+    display: block;
+    /* border: 2px solid red; */
+    width: 302px;
+}
+.boxesininfo span{
+    width: 292px;
+    display: block;
+    /* border: 2px solid red; */
+    height: 41px;
+    margin-top: -18px;
+}
+.boxesininfo img{
+    margin-right: -18px;
+    width: 134px;
+    float: right;
+    height: 102px;
+    margin-top: -74px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 13px grey;
+}
+.info a{
+    color: black;
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#left {
+    margin-left: 10px;
+    margin-top: -22px;
+    float: left;
+    width: 132px;
+    display: block;
+    /* border: 2px solid red; */
+}
+
+#mid {
+    font-family: 'Akshar', sans-serif;
+    overflow: hidden;
+    width: 547px;
+    display: block;
+    /* border: 2px solid green; */
+    margin: auto;
+    margin-top: -10px;
+}
+
+#mid li {
+    margin: 30px;
+    float: left;
+    list-style-type: none;
+}
+
+#mid a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#mid a:hover {
+    color: rgb(41, 80, 85);
+    text-decoration: underline;
+}
+
+.right {
+    background-color: #403939;
+    font-family: 'Akshar';
+    font-weight: bold;
+    margin-top: -86px;
+    float: right;
+    padding: 34px;
+    width: 132px;
+    display: block;
+    border: 2px solid #403939;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    margin-right: -18px;
+    color: #4c757c;
+    text-align: center
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+}
+
+.right a:hover {
+    color: #255a58;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 4px rgb(135, 238, 250),
+        0 0 82px rgb(135, 238, 250),
+        0 0 92px rgb(135, 238, 250),
+        0 0 5px rgb(135, 238, 250),
+        0 0 151px rgb(135, 238, 250);
+}
+
+header {
+    background-image: url(images/sasan-rashtipour-K6QvBBT17qE-unsplash_edited.jpg);
+    height: 70px;
+    padding: 18px;
+    color: white;
+    background-color: #363333;
+    box-shadow: 2px 2px 5px black;
+}
+
+header img {
+    margin: 13px;
+    width: 60px;
+    height: 60px;
+}
+
+header h3 {
+    line-height: 0px;
+    margin: 0px;
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 4px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 5px #0fa,
+        0 0 151px #0fa;
+}
